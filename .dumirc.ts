@@ -8,7 +8,7 @@ export default defineConfig({
   },
   outputPath: 'docs-dist',
   themeConfig: {
-    name: 'lhh-ui',
+    name: 'black-slider',
   },
   base: `/black-slider/`,
   publicPath: `/black-slider/`,

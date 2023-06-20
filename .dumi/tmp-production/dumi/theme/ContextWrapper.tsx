@@ -49,7 +49,7 @@ export default function DumiContextWrapper() {
       loading,
       setLoading,
       hostname: undefined,
-      themeConfig: {"footer":"Copyright © 2023 | Powered by <a href=\"https://d.umijs.org\" target=\"_blank\" rel=\"noreferrer\">dumi</a>","prefersColor":{"default":"light","switch":true},"nprogress":true,"name":"lhh-ui"},
+      themeConfig: {"footer":"Copyright © 2023 | Powered by <a href=\"https://d.umijs.org\" target=\"_blank\" rel=\"noreferrer\">dumi</a>","prefersColor":{"default":"light","switch":true},"nprogress":true,"name":"black-slider"},
       _2_level_nav_available: true,
     }}>
       {outlet}
