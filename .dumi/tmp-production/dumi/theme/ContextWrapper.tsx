@@ -4,10 +4,10 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { useOutlet, history } from 'dumi';
 
-import nprogress from 'C:/Users/mel/Desktop/project/Black-Silder/node_modules/nprogress';
+import nprogress from 'C:/Users/mel/Desktop/project/black-slider/node_modules/nprogress';
 import './nprogress.css';
 
-import { SiteContext } from 'C:/Users/mel/Desktop/project/Black-Silder/node_modules/dumi/dist/client/theme-api/context.js';
+import { SiteContext } from 'C:/Users/mel/Desktop/project/black-slider/node_modules/dumi/dist/client/theme-api/context.js';
 import { demos, components } from '../meta';
 import { locales } from '../locales/config';
 
@@ -40,7 +40,7 @@ export default function DumiContextWrapper() {
 
   return (
     <SiteContext.Provider value={{
-      pkg: {"name":"black-ui","description":"black's react Component Library","version":"1.0.0","license":"MIT","author":"black <970519495@qq.com>"},
+      pkg: {"name":"black-ui","description":"black's react Component Library","version":"1.0.0","license":"MIT","author":"black"},
       historyType: "browser",
       entryExports,
       demos,
@@ -49,7 +49,7 @@ export default function DumiContextWrapper() {
       loading,
       setLoading,
       hostname: undefined,
-      themeConfig: {"footer":"Copyright © 2023 | Powered by <a href=\"https://d.umijs.org\" target=\"_blank\" rel=\"noreferrer\">dumi</a>","prefersColor":{"default":"light","switch":true},"nprogress":true,"name":"black-ui"},
+      themeConfig: {"footer":"Copyright © 2023 | Powered by <a href=\"https://d.umijs.org\" target=\"_blank\" rel=\"noreferrer\">dumi</a>","prefersColor":{"default":"light","switch":true},"nprogress":true,"name":"lhh-ui"},
       _2_level_nav_available: true,
     }}>
       {outlet}

@@ -3,15 +3,15 @@
 // DO NOT CHANGE IT MANUALLY!
 import './core/polyfill';
 import { getPluginManager as getDumiPluginManager } from './core/plugin';
-import { setPluginManager as setDumiPluginManager } from 'C:/Users/mel/Desktop/project/Black-Silder/node_modules/dumi/dist/client/theme-api/utils.js';
-import { renderClient } from 'C:/Users/mel/Desktop/project/Black-Silder/node_modules/@umijs/renderer-react';
+import { setPluginManager as setDumiPluginManager } from 'C:/Users/mel/Desktop/project/black-slider/node_modules/dumi/dist/client/theme-api/utils.js';
+import { renderClient } from 'C:/Users/mel/Desktop/project/black-slider/node_modules/@umijs/renderer-react';
 import { getRoutes } from './core/route';
 import { createPluginManager } from './core/plugin';
 import { createHistory } from './core/history';
 import { ApplyPluginsType } from 'umi';
 
 
-const publicPath = "/";
+const publicPath = "/black-slider/";
 const runtimePublicPath = false;
 
 async function render() {
@@ -34,7 +34,7 @@ async function render() {
     initialValue: {},
   });
 
-  const basename = contextOpts.basename || '/';
+  const basename = contextOpts.basename || '/black-slider/';
   const historyType = contextOpts.historyType || 'browser';
 
   const history = createHistory({

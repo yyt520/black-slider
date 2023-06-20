@@ -4,10 +4,10 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { useOutlet, history } from 'dumi';
 
-import nprogress from 'C:/Users/mel/Desktop/project/Black-Silder/node_modules/nprogress';
+import nprogress from 'C:/Users/mel/Desktop/project/black-slider/node_modules/nprogress';
 import './nprogress.css';
 
-import { SiteContext } from 'C:/Users/mel/Desktop/project/Black-Silder/node_modules/dumi/dist/client/theme-api/context.js';
+import { SiteContext } from 'C:/Users/mel/Desktop/project/black-slider/node_modules/dumi/dist/client/theme-api/context.js';
 import { demos, components } from '../meta';
 import { locales } from '../locales/config';
 

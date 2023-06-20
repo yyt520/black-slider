@@ -3,8 +3,8 @@
 // DO NOT CHANGE IT MANUALLY!
 import { history } from 'dumi';
 import React, { useState, useLayoutEffect, useCallback, type ReactNode } from 'react';
-import { RawIntlProvider, createIntl, createIntlCache } from 'C:/Users/mel/Desktop/project/Black-Silder/node_modules/react-intl';
-import { useIsomorphicLayoutEffect } from 'C:/Users/mel/Desktop/project/Black-Silder/node_modules/dumi/dist/client/theme-api/utils.js'
+import { RawIntlProvider, createIntl, createIntlCache } from 'C:/Users/mel/Desktop/project/black-slider/node_modules/react-intl';
+import { useIsomorphicLayoutEffect } from 'C:/Users/mel/Desktop/project/black-slider/node_modules/dumi/dist/client/theme-api/utils.js'
 import { locales, messages } from './config';
 
 const cache = createIntlCache();
@@ -17,7 +17,7 @@ const LocalesContainer: FC<{ children: ReactNode }> = (props) => {
         ? history.location.pathname.replace(/([^/])\/$/, '$1').endsWith(locale.suffix)
         // base mode
         : history.location.pathname.replace(/([^/])\/$/, '$1')
-          .startsWith("" + locale.base)
+          .startsWith("/black-slider" + locale.base)
     ));
     const locale = matched ? matched.id : locales[0].id;
 

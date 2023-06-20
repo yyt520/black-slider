@@ -10,4 +10,6 @@ export default defineConfig({
   themeConfig: {
     name: 'lhh-ui',
   },
+  base: `/black-slider/`,
+  publicPath: `/black-slider/`,
 });
